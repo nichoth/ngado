@@ -1,5 +1,18 @@
 {
+  "name": "ngado",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+  },
+  "author": "Nick Thomas <nichoth@gmail.com>",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3",
+    "supertest": "^6.1.6"
   }
 }
