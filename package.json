@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "echo ok",
+    "start": "node index.js",
+    "build": "echo \"ok\" && exit 0",
     "test": "mocha ./test/* --exit"
   },
   "author": "Nick Thomas <nichoth@gmail.com>",
